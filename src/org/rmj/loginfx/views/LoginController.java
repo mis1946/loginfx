@@ -110,14 +110,14 @@ public class LoginController implements Initializable {
     }
     
     private void initForm(){
-        lblProduct.setText("");
-        lblAddress.setText("");
-        lblTelephone.setText("");
+//        lblProduct.setText("");
+//        lblAddress.setText("");
+//        lblTelephone.setText("");
         
-        lblProduct.setText(poGRider.getBranchName());
-        lblAddress.setText(poGRider.getAddress() + ", " + poGRider.getTownName() + " " + poGRider.getProvince());
-        if (!poGRider.getTelNo().equals("")) lblTelephone.setText("Tel. No. " + poGRider.getTelNo() + " ");
-        if (!poGRider.getFaxNo().equals("")) lblTelephone.setText(lblTelephone.getText() + "Fax No. " + poGRider.getFaxNo());
+//        lblProduct.setText(poGRider.getBranchName());
+//        lblAddress.setText(poGRider.getAddress() + ", " + poGRider.getTownName() + " " + poGRider.getProvince());
+//        if (!poGRider.getTelNo().equals("")) lblTelephone.setText("Tel. No. " + poGRider.getTelNo() + " ");
+//        if (!poGRider.getFaxNo().equals("")) lblTelephone.setText(lblTelephone.getText() + "Fax No. " + poGRider.getFaxNo());
     }   
     
     private void getApps(){
